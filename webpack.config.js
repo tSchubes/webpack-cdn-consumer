@@ -26,7 +26,7 @@ module.exports = {
                     return {
                         name: packageName,
                         //url: '../node_modules/lodash.js',
-                        url: 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.1.0/lodash.js',
+                        url: 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js',
                         version: version,
                         var: '_'
                     };
