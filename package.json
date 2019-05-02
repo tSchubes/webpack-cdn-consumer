@@ -1,0 +1,29 @@
+{
+  "name": "webpack-cdn-consumer",
+  "version": "0.0.1",
+  "description": "Loading external modules from CDN URL's automatically",
+  "repository": "https://github.com/tSchubes/webpack-cdn-consumer.git",
+  "main": "build/app.js",
+  "keywords": [],
+  "files": [
+    "build",
+    "index.html",
+    "*.md"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "dynamic-cdn-webpack-plugin": "^4.0.0",
+    "module-to-cdn": "^3.1.2",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-manifest-plugin": "^2.0.4"
+  },
+  "scripts": {
+    "build": "rimraf build && webpack --mode=development",
+    "dist": "rimraf build && webpack --mode=production"
+  }
+}
